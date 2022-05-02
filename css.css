@@ -12,3 +12,41 @@
     border: solid;
     border-width: 1px;
 }
+
+#rules{
+    width: 50%;
+}
+
+.rule{
+    display: flex;
+}
+
+.grey_square{
+    border-width: 2px;
+    background-color: grey;
+    width: 30px;
+    height: 30px;
+}
+
+.green_square{
+    border-width: 2px;
+    background-color: green;
+    width: 30px;
+    height: 30px;
+}
+
+.yellow_square{
+    border: none;
+    border-width: 2px;
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+}
+
+.letter{
+    width:30px;
+}
+
+body{
+    display: flex;
+}
