@@ -1,0 +1,14 @@
+#computed{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+#computed > div{
+    display: flex;
+}
+
+#words{
+    border: solid;
+    border-width: 1px;
+}

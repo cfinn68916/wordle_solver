@@ -5,14 +5,21 @@
         <link rel="stylesheet" href="css.css">
     </head>
     <body>
-        <div id="t"></div> 
+        <div id="rules"></div>
+
+        <div id="computed">
+            <div>
+                <p id="len">hi</p>
+                <span style="width: 100px;"></span>
+                <input type="button" value="recompute" onclick="compute();">
+            </div>
+            <div id="words"></div>
+            
+            
+        </div>
+        <script src="words.js"></script>
         <script src="app.js"></script>
-        <p id="main">this is a to do list</p>
-        <p>add item</p>
-        <form>
-            <input type="text" id="add" name="lname"><br>
-        </form>
-        <input type="button" id="sm" value="submit">
+        
     </body>
  
 </html> 
